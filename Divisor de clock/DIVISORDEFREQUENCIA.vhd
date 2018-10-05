@@ -1,11 +1,3 @@
--------------DIVISOR DE CLOCK---------------
-•Clock do fpga 27MHz e 50MHz
-•Objetivo: obter sinais de clock na saida com frequência inferior ao da entrada
-
-f1 = 50MHz => 50 milhões de repetições
-f0 = 1Hz
-
-
 library ieee;
 use ieee.std_logic_1164.all;
 
