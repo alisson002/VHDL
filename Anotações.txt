@@ -1,9 +1,0 @@
--------------DIVISOR DE CLOCK---------------
-•Clock do fpga 27MHz e 50MHz
-•Objetivo: obter sinais de clock na saida com frequência inferior ao da entrada
-
-f1 = 50MHz => 50 milhões de repetições
-f0 = 1Hz
-
-usando os 2 clocks do fpga (27 mhz e 50mhz) implementar divisor de frequencia para gerar um sinal clock 1
-com periodo de 1sec e um sinal clock2 com periodo de 1 decimo de sec
