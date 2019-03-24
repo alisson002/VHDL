@@ -1,0 +1,10 @@
+entity somador is
+	port(a,b,C_in: in bit;
+			s,c_out: out bit);
+end somador;
+
+architecture aulaDia24do03 of somador is
+begin
+	s <= (a xor b xor c_in);
+	c_out <= (a and b)or(a and c_in)or(b and c_in);
+end aulaDia24do03;
